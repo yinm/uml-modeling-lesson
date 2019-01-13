@@ -1,15 +1,16 @@
 @startuml
 
-class customer {
+class Customer {
   name
   email
 }
 
-class deliver {
+class CreditCard {
+  card_number
+  expiration date
   name
-  address
 }
 
-customer ||-ri-o{ deliver
+Customer ||-ri-o{ CreditCard
 
 @enduml
