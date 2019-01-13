@@ -1,6 +1,8 @@
 @startuml
 
 class customer {
+  name
+  email
 }
 
 @enduml
