@@ -5,4 +5,11 @@ class customer {
   email
 }
 
+class deliver {
+  name
+  address
+}
+
+customer ||-ri-o{ deliver
+
 @enduml
