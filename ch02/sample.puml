@@ -2,15 +2,20 @@
 
 class Customer {
   name
+  address
   email
 }
 
-class CreditCard {
-  card_number
-  expiration date
-  name
+class IndividualCustomer {
+  sex
+  birthday
 }
 
-Customer ||-ri-o{ CreditCard
+class CoporateCustomer {
+  capital_stock
+}
+
+Customer <|-- IndividualCustomer
+Customer <|-- CoporateCustomer
 
 @enduml
