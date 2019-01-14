@@ -1,14 +1,14 @@
 @startuml
 
-class Artist {
-  name
+class アーティスト {
+  名前
 }
 
-class Product {
-  title
-  created_at
+class 作品 {
+  タイトル
+  制作年月日
 }
 
-Artist "1..*" -- "1..*" Product
+アーティスト "1..*" -- "*" 作品
 
 @enduml
