@@ -10,6 +10,6 @@ class BankAccount {
   balance
 }
 
-Branch "1" - "*" BankAccount
+Branch "1" -- "*" BankAccount
 
 @enduml

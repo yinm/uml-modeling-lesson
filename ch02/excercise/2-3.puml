@@ -1,0 +1,14 @@
+@startuml
+
+class Artist {
+  name
+}
+
+class Product {
+  title
+  created_at
+}
+
+Artist "1..*" -- "1..*" Product
+
+@enduml
