@@ -1,0 +1,12 @@
+@startuml
+
+class employee {
+  first_name
+  last_name
+  sex
+  birthday
+  employee_number
+  entry_date
+}
+
+@enduml
