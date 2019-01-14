@@ -1,0 +1,15 @@
+@startuml
+
+class Branch {
+  code
+  name
+}
+
+class BankAccount {
+  number
+  balance
+}
+
+Branch "1" - "*" BankAccount
+
+@enduml
