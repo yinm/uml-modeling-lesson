@@ -1,13 +1,18 @@
 @startuml
 
+class 社員 {
+  社員番号
+  氏名
+}
+
 class 部署 {
   名称
 }
 
-class 社員 {
-  名称
-}
-
-部署 "1..*"--"*" 社員
+社員 "*"--"1" 部署 : 所属する >
+社員 "1"--"*" 部署 : 管理する >
+note right on link #white
+  部門長
+end note
 
 @enduml
