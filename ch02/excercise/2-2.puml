@@ -1,15 +1,15 @@
 @startuml
 
-class Branch {
-  code
-  name
+class 支店 {
+  支店コード
+  支店名
 }
 
-class BankAccount {
-  number
-  balance
+class 口座 {
+  口座番号
+  残高
 }
 
-Branch "1" -- "*" BankAccount
+支店 "1"--"*" 口座
 
 @enduml
