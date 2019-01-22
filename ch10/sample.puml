@@ -1,0 +1,10 @@
+@startuml
+
+class 商品
+class 分類項目
+class 分類
+
+商品 "*"--"*" 分類項目
+分類項目 "*"--"1" 分類
+
+@enduml
