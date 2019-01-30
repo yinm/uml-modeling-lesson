@@ -1,0 +1,12 @@
+@startuml
+
+class 根拠
+class 結論
+class アクション
+class 方法
+
+根拠 "*"-r-"1" 結論
+アクション -u-|> 結論
+アクション "1"-r-"*" 方法
+
+@enduml
